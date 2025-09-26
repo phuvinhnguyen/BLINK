@@ -15,7 +15,7 @@ setup(
     version="0.1.0",
     description="BLINK: Better entity LINKing",
     url="",  # TODO
-    packages=['blink', 'elq'],  # 👈 chỉ rõ package chính
+    packages=['blink', 'elq'],
     classifiers=[
         "Intended Audience :: Science/Research",
         "License :: OSI Approved :: MIT License",
