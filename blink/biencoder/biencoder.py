@@ -18,6 +18,7 @@ from tqdm import tqdm
 # )
 from transformers import AutoTokenizer, AutoModel
 # from pytorch_transformers.tokenization_bert import BertTokenizer
+from transformers.utils import WEIGHTS_NAME, CONFIG_NAME
 
 from blink.common.ranker_base import BertEncoder, get_model_obj
 from blink.common.optimizer import get_bert_optimizer
